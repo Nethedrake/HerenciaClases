@@ -20,7 +20,7 @@ public class Admnistrative extends Person {
         System.out.println("Mostrar datos del administrativo " );
     }
     
-    
+    @Override
      public void fingerPrintRegister (){
             System.out.println("Registrando huella administrativo");
 }
